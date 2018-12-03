@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "a6e49107-e025-445b-b3e7-30cee11d4e1d",
+		"name": "MoonX",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "MoonX",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"uid\" : \"MoonXUsername\",\n\t\"pwd\" : \"MoonXPassword\",\n\t\"Token\" : \"028358\"\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/getkeys",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getkeys"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
