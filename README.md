@@ -1,2 +1,2 @@
 # MoonX-Test
-Test for MoonX
+Please refer to the MooonX Assignment ppt for procedure to start the assignemt
